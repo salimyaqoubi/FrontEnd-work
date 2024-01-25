@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report ad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/Report.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MakhazenHub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ContactUs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <h2 style="margin-left: 30%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: brown;">Report this Ad</h2>
+     <br><br>
+
+    <form >
+        <label for="Email" style="margin-left: 30%;" >Your Email:</label><br>
+        <input type="text" style="width: 30%; border-radius: 7px; margin-left: 30%;" id="email" name="Email"><br>
+        <label for="Name" style="margin-left: 30%;">Your Name:</label><br>
+        <input type="text"  style="margin-left: 30%; border-radius: 7px;" id="name" name="Name"> <br> <br>
+        <label for="cars" style="margin-left: 30%; ">Select your reason:</label>
+        <div style="margin-left: 30%;">
+        <select name="problem" id="problem" >
+            <option value="" " disabled selected>-----Select a Reason-----</option>
+            <option value="fake">Facke Ad</option>
+            <option value="bad">Bad Service</option>
+            <option value="noanswer">No answer from provider</option>
+            
+
+            </div>
+      </select>
+   <br> 
+    <label for="Message">Write your Message:</label><br>
+    <input type="text"  style="width: 50%; height: 70px; border-radius: 7px;" id="name" name="Name"><br>
+   
+  <br><br>
+  <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
